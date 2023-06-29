@@ -25,9 +25,9 @@ window.onload = function() {
     return arreglo[index];
   };
   console.log("Hello Rigo from the console!");
-  let excusa = `${randomExcuse(who)}
-   ${randomExcuse(action)}
-   ${randomExcuse(what)}
-   ${randomExcuse(when)}.`;
-  mensaje.textContent = excusa;
+
+  mensaje.textContent = `${randomExcuse(who)}
+  ${randomExcuse(action)}
+  ${randomExcuse(what)}
+  ${randomExcuse(when)}.`;
 };
